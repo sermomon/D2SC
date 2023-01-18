@@ -88,7 +88,7 @@ D2SC is a research tool created by [Sergio Morell-Monzó](https://orcid.org/0000
 
 ## Credits
 
-This tool uses the following open source packages:
+This tool uses the following Open Source packages:
 
 - [raster](https://cran.r-project.org/web/packages/raster/index.html). D2SC was built under raster 3.5.2
 
