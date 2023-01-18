@@ -43,7 +43,7 @@ $$D2SC = 100*(1-(v2/v1))$$
 where $v1$ is the proportion of votes the most voted class and $v2$ is the proportion of votes of the second most voted class. The values of D2SC ratio range between 0, which indicates low confidence attributions, and 100, indicating high confidence attributions.
 
 > **Note**
-> D2SC package works with both raster and terra objects. See [raster](https://cran.r-project.org/web/packages/raster/index.html) or [terra](https://cran.r-project.org/web/packages/terra/index.html) documentation to wotk with.
+> D2SC package works with both `raster` and `terra` objects. See [raster](https://cran.r-project.org/web/packages/raster/index.html) or [terra](https://cran.r-project.org/web/packages/terra/index.html) documentation to wotk with.
 
 ## Installation
 
