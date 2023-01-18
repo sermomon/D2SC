@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/sermomon/D2SC">
-    <img src="https://img.shields.io/badge/D2SC-1.0.0-brightgreen"
+    <img src="https://img.shields.io/badge/D2SC-v1.0.0-brightgreen"
          alt="Gitter">
   </a>
   <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
