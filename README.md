@@ -108,7 +108,7 @@ text(r_d2sc, digits=1)
 
 ```
 
-![Results](https://user-images.githubusercontent.com/59225676/213209279-a87e9437-114b-40b3-a48a-b7520277c0d6.png)
+![Results](https://user-images.githubusercontent.com/59225676/213209749-aaabf7b7-5540-40dd-8d79-fb23ab83f1c6.png)
 
 ## References
 
