@@ -95,8 +95,8 @@ The following scientific studies used the Distance to The Second Cluster:
 
 * Txomin Hermosilla, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, Geordie W. Hobart (2015). Regional detection, characterization, and attribution of annual forest change from 1984 to 2012 using Landsat-derived time-series metrics. Remote Sensing of Environment, 170, 121-132. https://doi.org/10.1016/j.rse.2015.09.004
 * Txomin Hermosilla, Michael A. Wulder, Joanne C. White, Nicholas C. Coops & Geordie W. Hobart (2018) Disturbance-Informed Annual Land Cover Classification Maps of Canada's Forested Ecosystems for a 29-Year Landsat Time Series, Canadian Journal of Remote Sensing, 44(1), 67-87. https://doi.org/10.1080/07038992.2018.1437719
-* 
-
+* Wei Wei, Jing Zhang, Liang Zhou, Binbin Xie, Junju Zhou, Chuanhua Li (2021). Comparative evaluation of drought indices for monitoring drought based on remote sensing data. Environ Sci Pollut Res 28, 20408–20425 (2021). https://doi.org/10.1007/s11356-020-12120-0
+* Paulo J. Murillo-Sandoval, Thomas Hilker, Meg A. Krawchuk, Jamon Van Den Hoek (2018). Detecting and Attributing Drivers of Forest Disturbance in the Colombian Andes Using Landsat Time-Series. Forest, 9(5), 269. https://doi.org/10.3390/f9050269
 
 
 > Web [Sergio Morell-Monzó](http://www.upv.es/ficha-personal/sermomon) &nbsp;&middot;&nbsp;
