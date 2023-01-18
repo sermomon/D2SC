@@ -7,6 +7,15 @@
 <img src="https://user-images.githubusercontent.com/59225676/213167385-bd9870cf-20a9-40cd-86dc-36e25b99b0f7.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="150" height="170">
 
+<h4 align="center">A light R package to calculate the Distance to the Second Cluster proposer by <a href="https://doi.org/10.1016/j.rse.2007.12.006" target="_blank">Mitchell et al. 2008</a>.</h4>
+
+<p align="center">
+  <a href="#Overview">Overview</a> •
+  <a href="#Installation">Installation</a> •
+  <a href="#Usage">Usage</a> •
+  <a href="#References">References</a> •
+  <a href="#Related">Related</a> •
+</p>
 
 <p align="center">
   <a href="https://github.com/sermomon/D2SC">
@@ -21,16 +30,6 @@
   <a href="">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
-</p>
-
-<h4 align="center">A light R package to calculate the Distance to the Second Cluster proposer by <a href="https://doi.org/10.1016/j.rse.2007.12.006" target="_blank">Mitchell et al. 2008</a>.</h4>
-
-<p align="center">
-  <a href="#Overview">Overview</a> •
-  <a href="#Installation">Installation</a> •
-  <a href="#Usage">Usage</a> •
-  <a href="#References">References</a> •
-  <a href="#Related">Related</a> •
 </p>
 
 ## Overview
