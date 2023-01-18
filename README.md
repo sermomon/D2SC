@@ -30,7 +30,6 @@
   <a href="#Usage">Usage</a> •
   <a href="#References">References</a> •
   <a href="#Related">Related</a> •
-  <a href="#License">License</a>
 </p>
 
 ## Overview
@@ -95,6 +94,4 @@ This tool uses the following open source packages:
 - [raster](https://cran.r-project.org/web/packages/raster/index.html). D2SC was built under raster 3.5.2
 
 ## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
 
