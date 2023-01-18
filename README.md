@@ -36,6 +36,12 @@
 
 D2SC is a light R package to calculate the Distance to the Second Class proposed by [Mitchell et al. 2008](https://doi.org/10.1016/j.rse.2007.12.006). The Distance to the Second Class can be used as indicator of classification confidence in Land Use / Land Cover classification problems. The D2SC package makes it easy to calculate the distance between two classes from `raster` objects (RasterStack or RasterBrick) which contain the probability of belonging to each class.
 
+D2SC is computed as the complement of the ratio between most voted and second voted class [Hermosilla et al. 2022](https://doi.org/10.1016/j.rse.2022.113276):
+
+$$D2SC = 100*(1-(v2/v1))$$
+
+where v1 is the proportion of votes the most voted class and v2 is the proportion of votes of the second most voted class. The values of D2SC ratio range between 0, which indicates low confidence attributions, and 100, indicating high confidence attributions.
+
 ## Installation
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
