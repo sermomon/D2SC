@@ -13,7 +13,7 @@
          alt="Gitter">
   </a>
   <a href="https://cran.r-project.org/">
-      <img src="https://img.shields.io/badge/D2SC-v1.0.0-brightgreen"></a>
+      <img src="https://img.shields.io/badge/R-package-blue"></a>
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
