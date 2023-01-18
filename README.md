@@ -70,7 +70,10 @@ You can [download](https://github.com/amitmerchant1990/electron-markdownify/rele
 
 ## References
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+* Scott W. Mitchell, Tarmo K. Remmel, Ferenc Csillag, Michael A. Wulder (2008). Distance to second cluster as a measure of classification confidence. Remote Sensing of Environment, 112(5), 2615-2626. https://doi.org/10.1016/j.rse.2007.12.006
+* Txomin Hermosilla, Alex Bastyr, Nicholas C. Coops, Joanne C. White, Michael A. Wulder (2022). Mapping the presence and distribution of tree species in Canada's forested ecosystems. Remote Sensing of Environment, 282, 113276. https://doi.org/10.1016/j.rse.2022.113276
+
+D2SC is a research tool created by [Sergio Morell-Monzó](https://orcid.org/0000-0001-8883-2618). Meaning, if you liked using this tool or it has helped you in any way, I'd like you send me an email at <sermomon@upv.es> about anything you'd want to say about this package. I'd really appreciate it!
 
 ## Credits
 
