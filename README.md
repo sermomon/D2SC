@@ -14,8 +14,8 @@
   </a>
   <a href="https://cran.r-project.org/">
       <img src="https://img.shields.io/badge/R-package-blue"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  <a href="https://cran.r-project.org/web/packages/raster/index.html">
+      <img src="https://img.shields.io/badge/raster-%3E%3D3.5.2-blue">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
