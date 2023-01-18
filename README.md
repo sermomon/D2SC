@@ -69,7 +69,7 @@ For simplicity and reproducibility we are going to create some sample data using
 
 ```bash
 
-# Create example raster data
+# Create example RasterStack
 
 # install.packages("raster")
 library(raster)
