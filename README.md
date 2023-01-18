@@ -68,8 +68,10 @@ The main function of the package is `d2sc` which calculate the Distance to the S
 For simplicity and reproducibility we are going to create some sample data using `raster` package:
 
 ```bash
-# install.packages("raster")
 
+# Create example raster data
+
+# install.packages("raster")
 library(raster)
 
 r1 <- raster(ncol=5, nrow=5)
@@ -80,7 +82,7 @@ values(r1)=c(0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.9, 0.2, 0.0)
 values(r2)=c(0.2, 0.5, 0.1, 0.2, 0.4, 0.7, 0.2, 0.8, 0.5, 0.0, 0.8, 0.0)
 values(r3)=c(0.7, 0.4, 0.7, 0.6, 0.4, 0.1, 0.6, 0.0, 0.3, 0.1, 0.0, 1.0)
 
-# Raster containing the probabilities of each class
+# RasterStack containing the probabilities of each class
 r <- stack(r1, r2, r3)
 
 ```
