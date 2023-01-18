@@ -28,7 +28,7 @@
       <img src="https://img.shields.io/badge/raster-%3E%3D3.5.2-blue">
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+    <img src="">
   </a>
 </p>
 
