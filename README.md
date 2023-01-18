@@ -17,7 +17,7 @@
   <a href="https://cran.r-project.org/web/packages/raster/index.html">
       <img src="https://img.shields.io/badge/raster-%3E%3D3.5.2-blue">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
+  <a href="">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
