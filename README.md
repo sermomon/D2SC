@@ -51,10 +51,11 @@ To use this package you need to clone this repository usind `devtools`:
 
 ```bash
 install.packages("devtools")
+library(devtools)
 ```
 
 ```bash
-library(devtools)
+# Install the development version from GitHub
 install_github("sermomon/D2SC")
 ```
 
