@@ -35,7 +35,7 @@
 
 ## Overview
 
-D2SC is a light R package to calculate the Distance to the Second Class proposed by [Mitchell et al. 2008](https://doi.org/10.1016/j.rse.2007.12.006). The Distance to the Second Class can be used as indicator of classification confidence in Land Use / Land Cover classification problems. The D2SC package makes it easy to calculate the distance between two classes from `raster` objects (RasterStack or RasterBrick) which contain the probability of belonging to each class.
+D2SC is a light R package to calculate the Distance to the Second Cluster proposed by [Mitchell et al. 2008](https://doi.org/10.1016/j.rse.2007.12.006). The Distance to the Second Class can be used as indicator of classification confidence in Land Use / Land Cover classification problems. The D2SC package makes it easy to calculate the distance between two classes from `raster` objects (RasterStack or RasterBrick) which contain the probability of belonging to each class (or cluster).
 
 D2SC is computed as the complement of the ratio between most voted and second voted class [Hermosilla et al. 2022](https://doi.org/10.1016/j.rse.2022.113276):
 
@@ -67,7 +67,26 @@ install_github("sermomon/D2SC")
 
 ## Usage
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+The main function of the package is `d2sc` which calculate the Distance to the Second Cluster. But, the package also contain two complementaty functions: `getIndexOf` and `distBetween`.
+
+For simplicity and reproducibility we are going to create some sample data using `raster` package:
+
+```bash
+# install.packages("raster")
+
+library(raster)
+
+r1 <- raster(ncol=5, nrow=5)
+r2 <- raster(ncol=5, nrow=5)
+r3 <- raster(ncol=5, nrow=5)
+
+values(r1)=c(0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.9, 0.2, 0.8, 0.7, 0.8, 0.4, 0.3, 0.8, 0.2, 0.4, 0.2, 0.3, 0.2, 0.2, 0.2, 0.4)
+values(r2)=c(0.2, 0.5, 0.1, 0.2, 0.4, 0.7, 0.2, 0.8, 0.5, 0.0, 0.7, 0.1, 0.1, 0.2, 0.1, 0.6, 0.2, 0.3, 0.1, 0.1, 0.3, 0.3, 0.3, 0.7, 0.1)
+values(r3)=c(0.7, 0.4, 0.7, 0.6, 0.4, 0.1, 0.6, 0.0, 0.3, 0.1, 0.1, 0.1, 0.2, 0.0, 0.5, 0.4, 0.0, 0.5, 0.5, 0.7, 0.4, 0.5, 0.5, 0.1, 0.5)
+
+r <- stack(r1, r2, r3) # Raster containing the probabilities of each class
+
+```
 
 ## References
 
