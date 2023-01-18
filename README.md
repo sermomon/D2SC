@@ -65,50 +65,13 @@ install_github("sermomon/D2SC")
 
 The main function of the package is `d2sc` which calculate the Distance to the Second Cluster. But, the package also contain two complementaty functions: `getIndexOf` and `distBetween`.
 
-For simplicity and reproducibility we are going to create some sample data using `raster` package:
-
-```bash
-
-# Create example RasterStack
-
-# install.packages("raster")
-library(raster)
-
-r1 <- raster(ncol=4, nrow=3); values(r1)=c(0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.9, 0.2, 0.0)
-r2 <- raster(ncol=4, nrow=3); values(r2)=c(0.2, 0.5, 0.1, 0.2, 0.4, 0.7, 0.2, 0.8, 0.5, 0.0, 0.8, 0.0)
-r3 <- raster(ncol=4, nrow=3); values(r3)=c(0.7, 0.4, 0.7, 0.6, 0.4, 0.1, 0.6, 0.0, 0.3, 0.1, 0.0, 1.0)
-
-# RasterStack containing the probabilities of each class
-r <- stack(r1, r2, r3)
-
-```
-
-Now we can use `d2sc` function:
+Using `d2sc` function:
 
 ```bash
 
 r_d2sc <- d2sc(r)
 
 ```
-
-Let's see the results:
-
-```bash
-
-par(mfrow=c(2,2))
-
-plot(r1, main="Probability Class 1")
-text(r1)
-plot(r2, main="Probability Class 2")
-text(r2)
-plot(r3, main="Probability Class 3")
-text(r3)
-plot(r_d2sc, main="D2SC")
-text(r_d2sc, digits=1)
-
-```
-
-![Results](https://user-images.githubusercontent.com/59225676/213209749-aaabf7b7-5540-40dd-8d79-fb23ab83f1c6.png)
 
 ## References
 
