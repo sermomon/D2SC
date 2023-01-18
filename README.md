@@ -14,7 +14,7 @@
   <a href="#Installation">Installation</a> •
   <a href="#Usage">Usage</a> •
   <a href="#References">References</a> •
-  <a href="#Related">Related</a> •
+  <a href="#Related">Related</a>
 </p>
 
 <p align="center">
