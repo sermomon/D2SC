@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
+  <a href="https://img.shields.io/badge/D2SC-1.0.0-green">
     <img src="https://badge.fury.io/js/electron-markdownify.svg"
          alt="Gitter">
   </a>
