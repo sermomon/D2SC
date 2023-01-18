@@ -91,6 +91,7 @@ This tool uses the following Open Source packages:
 
 ## Related
 
+The following scientific studies used the Distance to The Second Cluster:
 
 
 
