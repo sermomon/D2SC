@@ -47,20 +47,15 @@ where $v1$ is the proportion of votes the most voted class and $v2$ is the propo
 
 ## Installation
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To use this package you need to clone this repository usind `devtools`:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+install.packages("devtools")
+```
 
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+```bash
+library(devtools)
+install_github("sermomon/D2SC")
 ```
 
 > **Note**
