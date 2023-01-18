@@ -1,4 +1,4 @@
-# D2SC package [![Distance to the Second CLuster][cult-img]][cult]
+# D2SC package
 
 <img src="https://user-images.githubusercontent.com/59225676/213167385-bd9870cf-20a9-40cd-86dc-36e25b99b0f7.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="190" height="220">
