@@ -97,6 +97,7 @@ This tool uses the following Open Source packages:
 
 
 > Web [Sergio Morell-Monzó](http://www.upv.es/ficha-personal/sermomon) &nbsp;&middot;&nbsp;
+> Google Scholar [Sergio Morell-Monzó](https://scholar.google.es/citations?user=LwdrU6wAAAAJ&hl=es&oi=ao) &nbsp;&middot;&nbsp;
 > GitHub [@sermomon](https://github.com/sermomon/sermomon) &nbsp;&middot;&nbsp;
 > Twitter [@sermomon](https://twitter.com/sermomon)
 
