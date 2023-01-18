@@ -74,9 +74,9 @@ For simplicity and reproducibility we are going to create some sample data using
 # install.packages("raster")
 library(raster)
 
-r1 <- raster(ncol=5, nrow=5)
-r2 <- raster(ncol=5, nrow=5)
-r3 <- raster(ncol=5, nrow=5)
+r1 <- raster(ncol=4, nrow=3)
+r2 <- raster(ncol=4, nrow=3)
+r3 <- raster(ncol=4, nrow=3)
 
 values(r1)=c(0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.9, 0.2, 0.0)
 values(r2)=c(0.2, 0.5, 0.1, 0.2, 0.4, 0.7, 0.2, 0.8, 0.5, 0.0, 0.8, 0.0)
