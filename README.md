@@ -24,10 +24,10 @@
 </p>
 
 <p align="center">
-  <a href="#key-features">Overview</a> •
-  <a href="#how-to-use">Installation</a> •
-  <a href="#download">Usage</a> •
-  <a href="#credits">References</a> •
+  <a href="#Overview">Overview</a> •
+  <a href="#Installation">Installation</a> •
+  <a href="#Usage">Usage</a> •
+  <a href="#References">References</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
