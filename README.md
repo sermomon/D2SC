@@ -89,6 +89,12 @@ r <- stack(r1, r2, r3)
 
 ```
 
+Now we can use `d2sc` function:
+
+d2sc <- d2sc(r)
+
+```
+
 ## References
 
 * Scott W. Mitchell, Tarmo K. Remmel, Ferenc Csillag, Michael A. Wulder (2008). Distance to second cluster as a measure of classification confidence. Remote Sensing of Environment, 112(5), 2615-2626. https://doi.org/10.1016/j.rse.2007.12.006
