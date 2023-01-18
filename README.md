@@ -98,18 +98,17 @@ Let's see the results:
 par(mfrow=c(2,2))
 
 plot(r1, main="Probability Class 1")
-text(r1, digits=2)
+text(r1)
 plot(r2, main="Probability Class 2")
-text(r2, digits=2)
+text(r2)
 plot(r3, main="Probability Class 3")
-text(r3, digits=2)
+text(r3)
 plot(r_d2sc, main="D2SC")
-text(r_d2sc, digits=2)
+text(r_d2sc, digits=1)
 
 ```
 
-![Results](https://user-images.githubusercontent.com/59225676/213208773-d2acca76-f10a-4791-b06a-986038561d6d.png)
-
+![Results](https://user-images.githubusercontent.com/59225676/213209279-a87e9437-114b-40b3-a48a-b7520277c0d6.png)
 
 ## References
 
