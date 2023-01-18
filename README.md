@@ -28,8 +28,8 @@
   <a href="#Installation">Installation</a> •
   <a href="#Usage">Usage</a> •
   <a href="#References">References</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#Related">Related</a> •
+  <a href="#License">License</a>
 </p>
 
 ## Overview
