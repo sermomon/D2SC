@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://img.shields.io/badge/D2SC-1.0.0-green">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+    <img src="https://img.shields.io/badge/D2SC-1.0.0-green"
          alt="Gitter">
   </a>
   <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
