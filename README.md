@@ -65,11 +65,19 @@ install_github("sermomon/D2SC")
 
 The main function of the package is `d2sc` which calculate the Distance to the Second Cluster. But, the package also contain two complementaty functions: `getIndexOf` and `distBetween`.
 
-Using `d2sc` function:
+By default, `d2sc` computes the Euclidean distance between the class with the highest probability and the class with the second highest probability:
 
 ```bash
 
 r_d2sc <- d2sc(r)
+
+```
+
+You can also calculate the distance between the class with the highest probability and the class with the third highest probability by modifying the `ind` argument.
+
+```bash
+
+r_d1_3 <- d2sc(r, ind=c(1,3))
 
 ```
 
