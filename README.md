@@ -1,4 +1,4 @@
-<h1 align="left">
+<h1 align="center">
   <br>
   D2SC package
   <br>
