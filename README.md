@@ -50,6 +50,7 @@ where $v1$ is the proportion of votes the most voted class and $v2$ is the propo
 To use this package you need to clone this repository usind `devtools`:
 
 ```bash
+# Install devtools
 install.packages("devtools")
 library(devtools)
 ```
