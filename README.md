@@ -27,9 +27,6 @@
   <a href="https://cran.r-project.org/web/packages/raster/index.html">
       <img src="https://img.shields.io/badge/raster-%3E%3D3.5.2-blue">
   </a>
-  <a href="">
-    <img src="">
-  </a>
 </p>
 
 ## Overview
