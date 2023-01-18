@@ -87,9 +87,29 @@ Now we can use `d2sc` function:
 
 ```bash
 
-d2sc <- d2sc(r)
+r_d2sc <- d2sc(r)
 
 ```
+
+Let's see the results:
+
+```bash
+
+par(mfrow=c(2,2))
+
+plot(r1, main="Probability Class 1")
+text(r1, digits=2)
+plot(r2, main="Probability Class 2")
+text(r2, digits=2)
+plot(r3, main="Probability Class 3")
+text(r3, digits=2)
+plot(r_d2sc, main="D2SC")
+text(r_d2sc, digits=2)
+
+```
+
+![Results](https://user-images.githubusercontent.com/59225676/213208773-d2acca76-f10a-4791-b06a-986038561d6d.png)
+
 
 ## References
 
