@@ -3,7 +3,7 @@
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://user-images.githubusercontent.com/59225676/213167385-bd9870cf-20a9-40cd-86dc-36e25b99b0f7.png" alt="D2SC" width="200"></a>
   <br>
-  Markdownify
+  D2SC
   <br>
 </h1>
 
