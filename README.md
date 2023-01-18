@@ -40,7 +40,7 @@ D2SC is computed as the complement of the ratio between most voted and second vo
 
 $$D2SC = 100*(1-(v2/v1))$$
 
-where v1 is the proportion of votes the most voted class and v2 is the proportion of votes of the second most voted class. The values of D2SC ratio range between 0, which indicates low confidence attributions, and 100, indicating high confidence attributions.
+where $$v1$$ is the proportion of votes the most voted class and $$v2$$ is the proportion of votes of the second most voted class. The values of D2SC ratio range between 0, which indicates low confidence attributions, and 100, indicating high confidence attributions.
 
 ## Installation
 
