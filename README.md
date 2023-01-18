@@ -91,6 +91,8 @@ r <- stack(r1, r2, r3)
 
 Now we can use `d2sc` function:
 
+```bash
+
 d2sc <- d2sc(r)
 
 ```
