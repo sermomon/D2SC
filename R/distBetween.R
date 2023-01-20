@@ -7,7 +7,7 @@
 #' @import raster
 #' @export
 
-distBetween <- function(x, indexOfFirst, indexOfSecond){
+distBetween <- function(x, indexOfMajor, indexOfMinor){
 
   x_prob <- raster::values(x)
   y_indx <- raster::values(raster::stack(indexOfMajor, indexOfMinor))
