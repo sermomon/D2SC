@@ -1,0 +1,17 @@
+Package: D2SC
+Type: Package
+Title: Distance to the Second Cluster (D2SC)
+Version: 1.0.0
+Authors@R:
+        person(given = "Sergio",
+        family = "Morell-Monzó",
+        role = c("aut", "cre"),
+        email = "sermomon@upv.es",
+        comment = c(ORCID = "0000-0001-8883-2618"))
+Description: D2SC is a light R package to calculate the Distance to the Second Cluster. The Distance to the Second Cluster can be used as indicator of classification confidence in Land Use / Land Cover classification problems.
+Imports: raster
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/sermomon/D2SC
+BugReports: https://github.com/sermomon/D2SC/issues
