@@ -10,7 +10,7 @@
 distBetween <- function(x, indexOfFirst, indexOfSecond){
 
   x_prob <- raster::values(x)
-  y_indx <- raster::values(raster::stack(indexOfFirst, indexOfSecond))
+  y_indx <- raster::values(raster::stack(indexOfMajor, indexOfMinor))
 
   d2sc <- list()
   for(i in 1:nrow(x_prob)){
