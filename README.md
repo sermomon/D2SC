@@ -64,15 +64,15 @@ By default, `d2sc` computes the Euclidean distance between the class with the hi
 
 ```bash
 
-r_d2sc <- d2sc(r)
+r_d2sc <- d2sc(x)
 
 ```
 
 You can also calculate the distance between the class with the highest probability and the class with the third highest probability by modifying the `ind` argument.
 
 ```bash
-
-r_d1_3 <- d2sc(r, ind=c(1,3))
+# Distance between the class with the highest probability and the class with the third highest probability
+r_distBetw_1_3 <- d2sc(r, ind=c(1,3))
 
 ```
 
