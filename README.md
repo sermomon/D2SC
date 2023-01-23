@@ -64,7 +64,7 @@ By default, `d2sc` computes the Euclidean distance between the class with the hi
 
 ```bash
 
-r_d2sc <- d2sc(x)
+d2sc(x)
 
 ```
 
