@@ -18,6 +18,7 @@ distBetween <- function(x, indexOfMajor, indexOfMinor){
     v2 <- as.numeric(x_prob[i,y_indx[i, 2]])
     d2sc[[i]] <- 100*(1-(v2/v1))
   }
+  
   rd2sc <- x[[1]]
   values(rd2sc) <- unlist(d2sc)
   
