@@ -9,6 +9,7 @@
 getIndexOf <- function(x, indexOf=1){
 
   f = function(v){which(rank(-v, ties="first") == indexOf)}
+  
   return(raster::calc(x, f))
 
 }
