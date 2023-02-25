@@ -21,4 +21,5 @@ distBetween <- function(x, indexOfMajor, indexOfMinor){
   rd2sc <- x[[1]]
   values(rd2sc) <- unlist(d2sc)
   return(rd2sc)
+  
 }
