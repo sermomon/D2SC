@@ -28,7 +28,7 @@ d2sc <- function(x, ind=c(1,2)){
     d2sc[[i]] <- 100*(1-(v2/v1))
   }
 
-  rd2sc <- x[[1]] # dummy raster grid
+  rd2sc <- x[[1]] # reference raster grid
   values(rd2sc) <- unlist(d2sc)
 
   return(rd2sc)
